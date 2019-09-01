@@ -10,7 +10,7 @@
             <div class=" user-content hide-menu m-l-10 alinear">
               <a class="text-light" href="user">
 
-                <h2 class="hide-menu">BIOMATIC</h2>
+                <h2 class="hide-menu"></h2>
               </a>
             </div>
           </div>
