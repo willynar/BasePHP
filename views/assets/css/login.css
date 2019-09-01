@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0;
+   /* box-sizing: border-box;  */
+   font-family: sans-serif;}
+body{
+  /* background-image: url('../image/fondoLogin.jpg') ; */
+background: gray;
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+  
+}

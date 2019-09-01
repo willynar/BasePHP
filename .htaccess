@@ -1,0 +1,21 @@
+RewriteEngine On
+RewriteRule ^inicio$ index.php?c=views
+RewriteRule ^finalizar$ index.php?c=auth&a=logOut
+RewriteRule ^validar-login$ index.php?c=auth&a=logIn
+RewriteRule ^recuperar-contraseña$ index.php?c=auth&a=recoverPassword
+
+RewriteRule ^gesition-usuarios$ index.php?c=views&a=users
+RewriteRule ^adminstracion$ index.php?c=admin
+
+RewriteRule ^user$ index.php?c=user
+RewriteRule ^mi-perfil$ index.php?c=views&a=profileAdmin
+RewriteRule ^crear-usuario$ index.php?c=user&a=createUser
+RewriteRule ^modificar-usuario$ index.php?c=user&a=update
+RewriteRule ^modificar-perfil$ index.php?c=user&a=updateProfile
+RewriteRule ^modificar-contrasena$ index.php?c=user&a=updatePassword
+RewriteRule ^cambiar-estado-usuario$ index.php?c=user&a=changeStatus
+
+RewriteRule ^generar-pdf$ index.php?c=pdf&a=main
+RewriteRule ^generar-pdfHtml$ index.php?c=pdf2&a=pdf2
+
+RewriteRule ^editar-usuario-(\w+)$ index.php?c=views&a=viewUpdateUser&data=$1
